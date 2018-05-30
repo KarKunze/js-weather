@@ -16,7 +16,7 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col col-auto">
-                        <input type="number" class="form-control" placeholder="Zip Code">
+                        <input type="zipInput" class="form-control" placeholder="Zip Code">
                     </div>
                     <div class="col col-auto">
                         <button id="weatherButton" class="btn btn-success" type="button">Get Weather</button>
@@ -27,7 +27,7 @@
         <div id="error">
             <div class="card mb-3 border-dark">
                 <div class="card-header bg-danger text-center font-weight-bold border-dark">Error</div>
-                <div class="card-body">TODO: Stuff</div>
+                <div id="errorMessage" class="card-body">TODO: Stuff</div>s
             </div>
         </div>
         <div id="output">
@@ -53,8 +53,8 @@
                 <div id="condition" class="card-body border-dark text-center"></div>
             </div>
             <div class="card mb-3 border-dark">
-                <div class="card-header bg-warning text-center font-weight-bold border-dark">Seasonal Display</div>
-                <div class="card-body">TODO: stuff</div>
+                <div class="card-header bg-warning text-center font-weight-bold border-dark">How does it look outside?</div>
+                <div class="card-body"><img src="displayImage" class="center"/></div>
             </div>
         </div>
         <script src="main.js"></script>
